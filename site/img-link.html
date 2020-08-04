@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#first {
+  width: 100px;
+  
+  /*background-color: red;*/
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+#second {
+  width: 100px;
+  
+  /*background-color: red;*/
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
 
+@keyframes example {
+  0%   {color: rgb(255,192,203);}
+  12.5%  {color: rgb(200, 25, 50);}
+  25%  {color: rgb(255,105,180);}
+  37.5% {color: rgb(100, 75, 150);}
+  50%   {color: rgb(50, 100, 200);}
+  62.5%  {color: rgb(219,112,147);}
+  75%  {color: rgb(250, 150, 50);}
+  87.5% {color: rgb(255,20,147);}
+  100% {color: rgb(150, 200, 150);}
+}
+</style>
+</head>
+<body>
+
+<div id="first" style="font-size: 40px">Shubhanshu</div>
+<div id="second" style="font-size: 40px">Kumar</div>
+
+</body>
+</html>
