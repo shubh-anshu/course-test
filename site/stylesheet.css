@@ -33,7 +33,7 @@ div>span{
 	background-color: pink;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   #p1 {
     width: 31%;
   }
@@ -47,7 +47,7 @@ div>span{
 
 
 /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 962px) and (max-width: 1199px) {
   #p1 {
     width: 45%;
   }
@@ -58,7 +58,7 @@ div>span{
     width: 92%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 961px) {
   #p1 {
     width: 90%;
   }
