@@ -2,7 +2,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 
 for (var i=0; i<names.length; i++) {
 
-  if (names[i][0] === 'J') {
+  if (names[i][0].toLowerCase() === 'J') {
     GB.speak(names[i]);
   } else {
     // helloSpeaker.xxxx
